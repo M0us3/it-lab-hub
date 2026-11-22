@@ -1,0 +1,463 @@
+[
+  {
+    "title": "MicrosoftLearning Lab Explorer",
+    "topic": "Azure",
+    "type": "Lab catalog",
+    "level": "All levels",
+    "duration": "Browse",
+    "source": "GitHub",
+    "url": "https://microsoftlearning.github.io/lab-explorer/",
+    "desc": "Searchable catalogue spanning MicrosoftLearning hands-on lab repositories.",
+    "featured": true
+  },
+  {
+    "title": "AZ-104 Microsoft Azure Administrator labs",
+    "topic": "Azure",
+    "type": "GitHub lab",
+    "level": "Intermediate",
+    "duration": "Varies",
+    "source": "GitHub",
+    "url": "https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator",
+    "desc": "Official course repository with hosted lab instructions, demos and supporting files.",
+    "featured": true
+  },
+  {
+    "title": "Introduction to Azure management tasks",
+    "topic": "Azure",
+    "type": "Guided learning",
+    "level": "Beginner",
+    "duration": "2 hr 1 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/introduction-microsoft-azure-management-tasks/",
+    "desc": "VMs, virtual networks, storage, tags, locks and a guided project.",
+    "featured": true
+  },
+  {
+    "title": "Guided project: secure Azure virtual networking",
+    "topic": "Azure",
+    "type": "Hands-on guided project",
+    "level": "Intermediate",
+    "duration": "1 hr 39 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/guided-project-configure-secure-access-workloads/",
+    "desc": "Build VNets, NSGs, Azure Firewall, routing and DNS."
+  },
+  {
+    "title": "Manage Azure resources with PowerShell",
+    "topic": "Azure",
+    "type": "PowerShell lab",
+    "level": "Intermediate",
+    "duration": "45 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/manage-azure-resources-windows-powershell/",
+    "desc": "Install Azure PowerShell and manage VMs, storage and subscriptions."
+  },
+  {
+    "title": "Azure Architecture Center",
+    "topic": "Azure",
+    "type": "Reference",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/",
+    "desc": "Architecture guidance, patterns and design practices."
+  },
+  {
+    "title": "AWS Workshops",
+    "topic": "AWS",
+    "type": "Lab catalog",
+    "level": "All levels",
+    "duration": "Varies",
+    "source": "AWS",
+    "url": "https://workshops.aws/",
+    "desc": "Hands-on workshops authored by AWS experts across cloud services.",
+    "featured": true
+  },
+  {
+    "title": "AWS Skill Builder hands-on learning",
+    "topic": "AWS",
+    "type": "Guided labs",
+    "level": "Beginner",
+    "duration": "Varies",
+    "source": "AWS",
+    "url": "https://skillbuilder.aws/",
+    "desc": "Official AWS digital training and interactive learning."
+  },
+  {
+    "title": "AWS IAM getting started",
+    "topic": "AWS",
+    "type": "Documentation + tutorial",
+    "level": "Beginner",
+    "duration": "Self-paced",
+    "source": "AWS",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html",
+    "desc": "Create users, groups, roles and policies; understand least privilege."
+  },
+  {
+    "title": "Amazon VPC getting started",
+    "topic": "AWS",
+    "type": "Hands-on tutorial",
+    "level": "Intermediate",
+    "duration": "Self-paced",
+    "source": "AWS",
+    "url": "https://docs.aws.amazon.com/vpc/latest/userguide/getting-started.html",
+    "desc": "Create a VPC, subnets, route tables and network connectivity."
+  },
+  {
+    "title": "Amazon S3 getting started",
+    "topic": "AWS",
+    "type": "Hands-on tutorial",
+    "level": "Beginner",
+    "duration": "Self-paced",
+    "source": "AWS",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html",
+    "desc": "Create buckets, upload objects and configure access."
+  },
+  {
+    "title": "Get started with identity and access labs",
+    "topic": "Entra ID",
+    "type": "Interactive lab",
+    "level": "Beginner",
+    "duration": "1 hr 5 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-identity-access-labs/",
+    "desc": "Hands-on users, groups, password protection, SSPR, MFA and Conditional Access.",
+    "featured": true
+  },
+  {
+    "title": "Plan, implement and administer Conditional Access",
+    "topic": "Entra ID",
+    "type": "Exercise-based module",
+    "level": "Advanced",
+    "duration": "1 hr 5 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/",
+    "desc": "Security defaults, policy design, assignments, testing and troubleshooting."
+  },
+  {
+    "title": "Microsoft Entra Labs",
+    "topic": "Entra ID",
+    "type": "GitHub lab repository",
+    "level": "Intermediate",
+    "duration": "Varies",
+    "source": "GitHub",
+    "url": "https://github.com/MicrosoftLearning/MicrosoftEntra-Labs",
+    "desc": "Microsoft lab exercises and supporting files for identity skilling."
+  },
+  {
+    "title": "Microsoft Entra documentation",
+    "topic": "Entra ID",
+    "type": "Documentation",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/entra/",
+    "desc": "Official identity, governance, authentication and access documentation."
+  },
+  {
+    "title": "Manage Exchange Online with PowerShell",
+    "topic": "Exchange",
+    "type": "PowerShell module",
+    "level": "Intermediate",
+    "duration": "43 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/manage-exchange-online-use-windows-powershell/",
+    "desc": "Connect to Exchange Online and manage mailboxes, resources and admin roles.",
+    "featured": true
+  },
+  {
+    "title": "Exchange Online documentation",
+    "topic": "Exchange",
+    "type": "Documentation",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/exchange/exchange-online",
+    "desc": "Administration, mail flow, recipients, protection and hybrid operations."
+  },
+  {
+    "title": "Exchange Online PowerShell",
+    "topic": "Exchange",
+    "type": "PowerShell reference",
+    "level": "Intermediate",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/powershell/exchange/exchange-online-powershell",
+    "desc": "Connect and administer Exchange Online using the Exchange Online module."
+  },
+  {
+    "title": "Microsoft 365 PowerShell learning path",
+    "topic": "Exchange",
+    "type": "Learning path",
+    "level": "Intermediate",
+    "duration": "3 hr 8 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/manage-microsoft-365-services-use-windows-powershell/",
+    "desc": "PowerShell administration across Entra ID, Exchange, SharePoint and Teams."
+  },
+  {
+    "title": "Guided project: Azure Files and Azure Blobs",
+    "topic": "Storage",
+    "type": "Hands-on guided project",
+    "level": "Intermediate",
+    "duration": "1 hr 14 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/guided-project-azure-files-azure-blobs/",
+    "desc": "Create storage accounts, blobs, Azure Files, encryption and network controls.",
+    "featured": true
+  },
+  {
+    "title": "Secure storage for Azure Files and Blob Storage",
+    "topic": "Storage",
+    "type": "Learning path",
+    "level": "Intermediate",
+    "duration": "Varies",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/implement-storage-azure-files-azure-blob-storage/",
+    "desc": "File shares, snapshots, soft delete, File Sync, SAS and storage security."
+  },
+  {
+    "title": "Amazon S3 user guide",
+    "topic": "Storage",
+    "type": "Documentation + tutorials",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "AWS",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/",
+    "desc": "Object storage, lifecycle, access controls, encryption and replication."
+  },
+  {
+    "title": "Storage Spaces Direct overview and deployment",
+    "topic": "Storage",
+    "type": "Documentation",
+    "level": "Advanced",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview",
+    "desc": "Windows Server software-defined storage concepts and deployment."
+  },
+  {
+    "title": "VMware Hands-on Labs",
+    "topic": "VMware",
+    "type": "Virtual lab catalog",
+    "level": "All levels",
+    "duration": "Varies",
+    "source": "VMware",
+    "url": "https://hol.vmware.com/",
+    "desc": "Browser-accessible VMware product labs and guided exercises.",
+    "featured": true
+  },
+  {
+    "title": "VMware Hands-on Labs blog and catalog updates",
+    "topic": "VMware",
+    "type": "Lab updates",
+    "level": "All levels",
+    "duration": "Browse",
+    "source": "VMware",
+    "url": "https://blogs.vmware.com/hol/",
+    "desc": "New lab announcements, catalog changes and lab guidance."
+  },
+  {
+    "title": "VMware vSphere documentation",
+    "topic": "VMware",
+    "type": "Documentation",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "VMware",
+    "url": "https://docs.vmware.com/en/VMware-vSphere/index.html",
+    "desc": "vCenter, ESXi, networking, storage, lifecycle and operations."
+  },
+  {
+    "title": "Microsoft Learn security training",
+    "topic": "Security",
+    "type": "Learning catalog",
+    "level": "All levels",
+    "duration": "Varies",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/browse/?terms=security",
+    "desc": "Security learning modules across Microsoft security products."
+  },
+  {
+    "title": "Microsoft Defender XDR documentation",
+    "topic": "Security",
+    "type": "Documentation",
+    "level": "Intermediate",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/defender-xdr/",
+    "desc": "Incident response, advanced hunting, investigation and security operations."
+  },
+  {
+    "title": "Microsoft Sentinel training",
+    "topic": "Security",
+    "type": "Learning resources",
+    "level": "Intermediate",
+    "duration": "Varies",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/azure/sentinel/",
+    "desc": "SIEM operations, analytics, automation and threat hunting."
+  },
+  {
+    "title": "Security lab exercises",
+    "topic": "Security",
+    "type": "GitHub labs",
+    "level": "Intermediate",
+    "duration": "Varies",
+    "source": "GitHub",
+    "url": "https://github.com/MicrosoftLearning/mslearn-sec-identity",
+    "desc": "Microsoft identity security lab exercises and supporting files."
+  },
+  {
+    "title": "Enroll and validate devices with Intune",
+    "topic": "Intune",
+    "type": "Hands-on module",
+    "level": "Intermediate",
+    "duration": "40 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/enroll-validate-devices-microsoft-intune/",
+    "desc": "Enroll a Windows device, validate join and management, configure restrictions and troubleshoot.",
+    "featured": true
+  },
+  {
+    "title": "Configure and secure devices with Intune policies",
+    "topic": "Intune",
+    "type": "Exercise-based module",
+    "level": "Intermediate",
+    "duration": "45 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/configure-secure-devices-intune-policies/",
+    "desc": "Configuration profiles, compliance, dynamic groups and remediation."
+  },
+  {
+    "title": "Microsoft Intune documentation",
+    "topic": "Intune",
+    "type": "Documentation",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/mem/intune/",
+    "desc": "Device enrollment, configuration, compliance, apps and endpoint management."
+  },
+  {
+    "title": "Microsoft Intune training",
+    "topic": "Intune",
+    "type": "Learning catalog",
+    "level": "All levels",
+    "duration": "Varies",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/browse/?products=microsoft-intune",
+    "desc": "Role-based Intune learning and hands-on content."
+  },
+  {
+    "title": "Get started with Windows PowerShell",
+    "topic": "PowerShell",
+    "type": "Learning path",
+    "level": "Intermediate",
+    "duration": "2 hr 13 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/",
+    "desc": "PowerShell hosts, command syntax, discovery and Get-Help.",
+    "featured": true
+  },
+  {
+    "title": "Create and modify scripts with PowerShell",
+    "topic": "PowerShell",
+    "type": "Learning path",
+    "level": "Intermediate",
+    "duration": "3 hr 41 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/create-modify-script-use-windows-powershell/",
+    "desc": "Script structure, input, imported data, error handling and execution."
+  },
+  {
+    "title": "Maintain system administration tasks with PowerShell",
+    "topic": "PowerShell",
+    "type": "Learning path",
+    "level": "Intermediate",
+    "duration": "2 hr 3 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/",
+    "desc": "Active Directory, network configuration, server and client administration."
+  },
+  {
+    "title": "PowerShell pipeline learning path",
+    "topic": "PowerShell",
+    "type": "Learning path",
+    "level": "Intermediate",
+    "duration": "3 hr 35 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/work-windows-powershell-pipeline/",
+    "desc": "Filter, sort, enumerate and pass pipeline objects."
+  },
+  {
+    "title": "PowerShell lab: local system administration",
+    "topic": "PowerShell",
+    "type": "GitHub lab",
+    "level": "Intermediate",
+    "duration": "60 min",
+    "source": "GitHub",
+    "url": "https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs/LAB_02_Administering_local_systems_using_PowerShell.md",
+    "desc": "Practice AD object administration, network configuration and IIS with PowerShell.",
+    "featured": true
+  },
+  {
+    "title": "PowerShell lab: command discovery and Help",
+    "topic": "PowerShell",
+    "type": "GitHub lab",
+    "level": "Beginner",
+    "duration": "60 min",
+    "source": "GitHub",
+    "url": "https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs/LAB_AK_01_Configuring_Windows_PowerShell_finding_and_running_commands.md",
+    "desc": "Configure the shell, discover commands and use built-in help."
+  },
+  {
+    "title": "PowerShell documentation",
+    "topic": "PowerShell",
+    "type": "Documentation",
+    "level": "All levels",
+    "duration": "Reference",
+    "source": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/powershell/",
+    "desc": "Official PowerShell language, modules, scripting and platform docs."
+  },
+  {
+    "title": "PowerShell Gallery",
+    "topic": "PowerShell",
+    "type": "Module repository",
+    "level": "All levels",
+    "duration": "Browse",
+    "source": "Microsoft",
+    "url": "https://www.powershellgallery.com/",
+    "desc": "Discover PowerShell modules and scripts; review source and trust before installing."
+  },
+  {
+    "title": "Troubleshoot Active Directory",
+    "topic": "Active Directory",
+    "type": "Exercise-based module",
+    "level": "Intermediate",
+    "duration": "57 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/modules/troubleshoot-active-directory/",
+    "desc": "Recover objects and SYSVOL, troubleshoot replication and hybrid authentication."
+  },
+  {
+    "title": "AZ-802 Windows Server labs",
+    "topic": "Active Directory",
+    "type": "GitHub lab",
+    "level": "Intermediate",
+    "duration": "Varies",
+    "source": "GitHub",
+    "url": "https://github.com/MicrosoftLearning/AZ-802-Windows-Server-Administrator-Associate",
+    "desc": "Windows Server lab series; check the repository's current setup notes and status."
+  },
+  {
+    "title": "Active Directory PowerShell administration",
+    "topic": "Active Directory",
+    "type": "PowerShell learning module",
+    "level": "Intermediate",
+    "duration": "40 min",
+    "source": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/maintain-system-administration-tasks-windows-powershell/",
+    "desc": "Manage AD users, groups, computers, OUs and directory objects."
+  }
+]

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A curated IT lab hub for cloud, identity, endpoint, infrastructure, security and PowerShell practice.">
+<title>IT Lab Hub — Labs, Guides & Resources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+  <a class="brand" href="#" data-view="home"><span class="brand-mark">›_</span><span><b>IT Lab Hub</b><small>Labs • Guides • Resources</small></span></a>
+  <nav id="sideNav">
+    <button class="nav-item active" data-view="home"><span>⌂</span>Dashboard</button>
+    <button class="nav-item" data-topic="Azure"><span class="azure">A</span>Azure</button>
+    <button class="nav-item" data-topic="AWS"><span class="aws">aws</span>AWS</button>
+    <button class="nav-item" data-topic="Entra ID"><span class="entra">◆</span>Entra ID</button>
+    <button class="nav-item" data-topic="Exchange"><span class="exchange">▣</span>Exchange</button>
+    <button class="nav-item" data-topic="Storage"><span class="storage">▤</span>Storage</button>
+    <button class="nav-item" data-topic="VMware"><span class="vmware">vmw</span>VMware</button>
+    <button class="nav-item" data-topic="Security"><span class="security">♢</span>Security</button>
+    <button class="nav-item" data-topic="Intune"><span class="intune">▣</span>Intune</button>
+    <button class="nav-item" data-topic="PowerShell"><span class="powershell">›_</span>PowerShell</button>
+    <button class="nav-item" data-topic="Active Directory"><span class="ad">▦</span>Active Directory</button>
+    <div class="nav-sep"></div>
+    <button class="nav-item" data-view="all"><span>⚗</span>All Labs</button>
+    <button class="nav-item" data-view="resources"><span>▤</span>All Resources</button>
+    <button class="nav-item" data-view="search"><span>⌕</span>Search</button>
+  </nav>
+  <a class="github-link" href="https://github.com/new" target="_blank" rel="noopener"><span>◉</span> Create GitHub repo ↗</a>
+</aside>
+<main class="main-area">
+<header class="topbar">
+  <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+  <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search labs, guides, and resources..."><kbd>Ctrl K</kbd></div>
+  <div class="top-links"><button data-view="home">Home</button><button data-view="all">Labs</button><button data-view="resources">Resources</button><a href="#about">About</a><a class="github-top" href="https://github.com/new" target="_blank" rel="noopener">◉</a></div>
+</header>
+<div class="content-grid">
+<section class="center-column">
+  <section class="hero">
+    <div class="hero-copy"><h1>Welcome to the <span>IT Lab Hub</span></h1><p>A curated collection of hands-on labs, guides, and high-quality resources for Microsoft, AWS, virtualization, security, and more.</p>
+      <div class="hero-pills"><span>⚗ Hands-on Labs</span><span>▣ Documentation</span><span>◉ GitHub Projects</span><span>▶ Videos</span><span>›_ PowerShell</span></div>
+    </div><div class="hero-art"><div class="cloud">☁</div><div class="terminal-art">›_<small>LABS / PRACTICE</small></div><div class="server-art"><i></i><i></i><i></i></div></div>
+  </section>
+  <section class="section-block">
+    <div class="section-heading"><h2><span class="stack-icon">▰</span>Technology Topics</h2><span class="muted" id="topicCount">10 topics</span></div>
+    <div class="topic-grid" id="topicGrid"></div>
+  </section>
+  <section class="lower-grid">
+    <div class="panel"><div class="panel-head"><h2>⚗ Featured Labs</h2><button data-view="all">View all →</button></div><div id="featuredList" class="resource-list"></div></div>
+    <div class="panel"><div class="panel-head"><h2>◷ Recently Added</h2><button data-view="resources">View all →</button></div><div id="recentList" class="resource-list"></div></div>
+  </section>
+  <section class="panel results-panel" id="resultsPanel" hidden><div class="panel-head"><h2 id="resultsTitle">Resources</h2><span class="muted" id="resultsCount"></span></div><div class="filters"><select id="typeFilter"><option value="">All types</option></select><select id="levelFilter"><option value="">All levels</option><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></div><div id="resultsList" class="results-list"></div></section>
+  <section class="about" id="about"><b>IT LAB HUB</b><span>Static site • GitHub Pages • Browser-only progress tracking</span></section>
+</section>
+<aside class="right-column">
+  <div class="side-panel"><h2>🔗 Quick Links</h2>
+    <a href="https://learn.microsoft.com/en-us/training/" target="_blank" rel="noopener"><b class="ms-logo">▦</b>Microsoft Learn (Labs)<i>↗</i></a>
+    <a href="https://github.com/MicrosoftLearning" target="_blank" rel="noopener"><b>◉</b>Microsoft Learning (GitHub)<i>↗</i></a>
+    <a href="https://workshops.aws/" target="_blank" rel="noopener"><b class="aws">aws</b>AWS Workshops<i>↗</i></a>
+    <a href="https://learn.microsoft.com/en-us/powershell/" target="_blank" rel="noopener"><b class="ps">›_</b>PowerShell Docs<i>↗</i></a>
+    <a href="https://hol.vmware.com/" target="_blank" rel="noopener"><b class="vmware">vmw</b>VMware Hands-on Labs<i>↗</i></a>
+    <a href="https://microsoftlearning.github.io/lab-explorer/" target="_blank" rel="noopener"><b class="ms-logo">▦</b>Microsoft Lab Explorer<i>↗</i></a>
+  </div>
+  <div class="side-panel"><h2>◇ Popular Tags</h2><div class="tag-cloud" id="tagCloud"></div></div>
+  <div class="side-panel"><h2>🚀 Getting Started</h2>
+    <a href="#about"><b>→</b>How to use this site</a><a href="#" data-topic="Azure"><b>→</b>Start with Azure labs</a><a href="#" data-topic="Entra ID"><b>→</b>Identity & access practice</a><a href="#" data-topic="PowerShell"><b>→</b>PowerShell practice track</a><a href="https://github.com/" target="_blank" rel="noopener"><b>→</b>Contributing (add a resource)</a>
+  </div>
+  <div class="side-panel progress-panel"><h2>✓ Your Lab Progress</h2><div class="progress-number"><strong id="doneCount">0</strong><span>completed</span></div><div class="progress-track"><i id="progressBar"></i></div><small id="progressText">Check off labs as you complete them. Progress stays in this browser.</small><button id="resetProgress" class="text-button">Reset progress</button></div>
+</aside>
+</div>
+</main>
+</div>
+<script src="assets/app.js"></script>
+</body></html>
