@@ -340,12 +340,12 @@
   },
   {
     "title": "Microsoft Intune training",
-    "topic": "Intune",
-    "type": "Learning catalog",
+    "topic": "Intune, MD-102",
+    "type": "Hands-on Lab",
     "level": "All levels",
     "duration": "Varies",
-    "source": "Microsoft Learn",
-    "url": "https://learn.microsoft.com/en-us/training/browse/?products=microsoft-intune",
+    "source": "Microsoft Learn Github",
+    "url": "https://microsoftlearning.github.io/MD-102T00-Microsoft-365-Endpoint-Administrator/",
     "desc": "Role-based Intune learning and hands-on content."
   },
   {
